@@ -1,0 +1,11 @@
+#!/bin/sh
+echo "***********************************"
+echo "*          SocketCockpit          *"
+echo "*               by                *"
+echo "*          dream-alpha            *"
+echo "***********************************"
+echo ""
+echo "SocketCockpit plugin installed successfully."
+echo "Please restart DreamOS now!"
+echo ""
+exit 0
