@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Common\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-20 15:09+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: dream-alpha\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.1\n"
+"X-Loco-Source-Locale: en-US\n"
+"X-Loco-Project-Id: 47158\n"
+"X-Loco-Api-Version: 1.0.19 20180501-1\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "CLIENT"
+msgstr "CLIENT"
+
+msgid "Enable"
+msgstr "Aktiviere"
+
+msgid "Select whether client function should be activated for this box."
+msgstr ""
+"Soll die Client-Funktion auf der Box ausgeführt werden? Dies ermöglicht "
+"Zugriff auf eine remote Server-Box."
+
+msgid "Server ip address"
+msgstr "Server IP Adresse"
+
+msgid "Select the server ip address for the client function of this box"
+msgstr "Welche IP-Adresse hat die Server-Box? Wird nur für Clients benötigt."
+
+msgid "SERVER"
+msgstr "SERVER"
+
+msgid "Select whether server function should be activated for this box."
+msgstr ""
+"Soll die Server-Funktion auf der Box ausgeführt werden? Dies ermöglicht, "
+"dass eine remote Client-Box auf diese Box zugreifen kann."
+
+msgid "PORTS"
+msgstr "PORTS"
+
+msgid "Server port for requests"
+msgstr "Server Port für Daten"
+
+msgid "Select the port number for requests."
+msgstr "Auswahl des Server Ports für Daten."
+
+msgid "Server port for file transfers"
+msgstr "Server Port für Dateien"
+
+msgid "Select the port number for file transfers."
+msgstr "Auswahl des Server Ports für Dateien."
+
+msgid "DEBUG"
+msgstr "DEBUG"
+
+msgid "Log level"
+msgstr "Log Stufe"
+
+msgid "Select debug log level."
+msgstr "Auswahl der Log Stufe"
+
+msgid "Setup"
+msgstr "Einstellungen"
+
+msgid "Open setup"
+msgstr "Öffne Einstellungen"
+
+msgid "Cancel"
+msgstr "Abbruch"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Defaults"
+msgstr "Standard"
+
+msgid "Really close without saving settings?"
+msgstr "Fortfahren ohne Speichern der Einstellungen?"
+
+msgid "Loading default settings will overwrite all settings, really load them?"
+msgstr ""
+"Das Laden der Standardeinstellungen überschreibt alle aktuellen "
+"Einstellungen.\n"
+"Sollen die Standardeinstellungen wirklich geladen werden?"
+
+msgid "Some changes require a GUI restart"
+msgstr "Einige Änderungen erfordern einen Neustart der GUI"
+
+msgid "Restart GUI now?"
+msgstr "Soll die GUI jetzt neu gestartet werden?"
+
+msgid "Bookmarks"
+msgstr "Lesezeichen"
+
+msgid "Select directory"
+msgstr "Verzeichnis-Auswahl"
+
+msgid "Path does not exist"
+msgstr "Verzeichnis existiert nicht"

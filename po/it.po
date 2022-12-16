@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SocketCockpit v\n"
+"POT-Creation-Date: 2022-06-03 17:44+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dario Croci <spaeleus@croci.org>\n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Loco-Source-Locale: en-US\n"
+"X-Loco-Project-Id: 47158\n"
+"X-Loco-Api-Version: 1.0.19 20180501-1\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Version"
+msgstr "Versione"
+
+msgid "Copyright"
+msgstr "Copyright"
+
+msgid "License"
+msgstr "Licenza"
+
+msgid "End"
+msgstr "Fine"
+
+msgid "Stop playback"
+msgstr "Arrestare riproduzione"
+
+msgid "Skip forward"
+msgstr "Skip avanti"
+
+msgid "Skip backward"
+msgstr "Skip indietro"
+
+msgid "EPG Info"
+msgstr "Info EPG"
+
+msgid "Do you want to resume playback at position: %d:%02d:%02d?"
+msgstr "Riprendere la riproduzione dalla posizione %d:%02d:%02d?"
+
+msgid "Cancel"
+msgstr "Annullare"
+
+msgid "Save"
+msgstr "Salvare"
+
+msgid "Defaults"
+msgstr "Predefinito"
+
+msgid "Really close without saving settings?"
+msgstr "Chiudere senza salvare le impostazioni?"
+
+msgid "Setup"
+msgstr "Impostazioni"
+
+msgid "Loading default settings will overwrite all settings, really load them?"
+msgstr "Le impostazioni predefinite sovrascriveranno tutte quelle presenti. Eseguire?"
+
+msgid "Some changes require a GUI restart"
+msgstr "Alcune modifiche richiedono il riavvio della GUI"
+
+msgid "Restart GUI now?"
+msgstr "Riavviare la GUI ora?"
+
+msgid "Bookmarks"
+msgstr "Segnalibri"
+
+msgid "Select directory"
+msgstr "Selezionare directory"
+
+msgid "Path does not exist"
+msgstr "Percorso non presente"
+
+msgid "Close"
+msgstr "Chiudere"
+
+msgid "Hide"
+msgstr "Nascondere"
+
+msgid "Cancelling, please wait"
+msgstr "Annullamento in corso, attendere"
+
+msgid "Processing"
+msgstr "Elaborazione in corso"
+
+msgid "of"
+msgstr "di"
+
+msgid "Done"
+msgstr "Fatto"
+
+msgid "Cancelled"
+msgstr "Annullato"
+
+msgid "Please wait"
+msgstr "Attendere"
+
+msgid "min"
+msgstr "min"
+
+msgid "CLIENT"
+msgstr "CLIENT"
+
+msgid "Enable"
+msgstr "Abilitare"
+
+msgid "Select whether client function should be activated for this box."
+msgstr "Selezionare le funzioni client da attivare su questo box."
+
+msgid "Server ip address"
+msgstr "Indirizzo IP server"
+
+msgid "Select the server ip address for the client function of this box"
+msgstr "Selezionare l'indirizzo IP del server per le funzioni client di questo box"
+
+msgid "SERVER"
+msgstr "SERVER"
+
+msgid "Select whether server function should be activated for this box."
+msgstr "Selezionare le funzioni server da attivare su questo box."
+
+msgid "PORTS"
+msgstr "PORTE"
+
+msgid "Server port for requests"
+msgstr "Porta server per richieste"
+
+msgid "Select the port number for requests."
+msgstr "Selezionare la porta per le richieste."
+
+msgid "Server port for file transfers"
+msgstr "Porta server per trasferimenti file"
+
+msgid "Select the port number for file transfers."
+msgstr "Selezionare la porta per i trasferimenti file."
+
+msgid "DEBUG"
+msgstr "DEBUG"
+
+msgid "Log level"
+msgstr "Livello log"
+
+msgid "Select debug log level."
+msgstr "Selezionare il livello del log di debug."
+
+msgid "Open setup"
+msgstr "Impostazioni"

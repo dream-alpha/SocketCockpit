@@ -1,0 +1,5 @@
+Description: SocketCockpit
+Maintainer: dream-alpha
+Package: enigma2-plugin-systemplugins-socketcockpit
+Version: 4.2.0
+Architecture: all
