@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -20,8 +20,8 @@
 
 
 import threading
-from Debug import logger
-from SocketUtils import sock2int, createClientSocket, sendSocket, receiveSocket
+from .Debug import logger
+from .SocketUtils import sock2int, createClientSocket, sendSocket, receiveSocket
 
 
 class FileClient(threading.Thread):

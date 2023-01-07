@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -23,8 +23,8 @@ import os
 import sys
 import time
 import logging
-from Version import ID, PLUGIN
 from Components.config import config, ConfigSubsection, ConfigDirectory, ConfigSelection  # pylint: disable=W0611
+from .Version import ID, PLUGIN
 
 
 logger = None

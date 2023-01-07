@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -20,11 +20,11 @@
 
 
 import os
-from Debug import logger
-from Version import ID, PLUGIN
 from enigma import getDesktop
-from skin import loadSkin, loadSingleSkinData, dom_skins
 from Tools.Directories import resolveFilename, SCOPE_SKIN, SCOPE_CURRENT_SKIN, SCOPE_PLUGINS
+from skin import loadSkin, loadSingleSkinData, dom_skins
+from .Debug import logger
+from .Version import ID, PLUGIN
 
 
 def getSkinName(skin_name):

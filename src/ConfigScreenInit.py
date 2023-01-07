@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -19,11 +19,11 @@
 # <http://www.gnu.org/licenses/>.
 
 
-from Debug import logger
-from __init__ import _
 from Components.config import config
-from SocketCockpit import SocketCockpit
-from OnlineMonitor import OnlineMonitor
+from .Debug import logger
+from .__init__ import _
+from .SocketCockpit import SocketCockpit
+from .OnlineMonitor import OnlineMonitor
 
 
 class ConfigScreenInit():

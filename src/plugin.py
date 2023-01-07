@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -19,15 +19,15 @@
 # <http://www.gnu.org/licenses/>.
 
 
-from Debug import logger
-from __init__ import _
-from Version import VERSION
-from Plugins.Plugin import PluginDescriptor
-from SocketCockpit import SocketCockpit
-from ConfigInit import ConfigInit
-from SkinUtils import initPluginSkinPath, loadPluginSkin
-from ConfigScreen import ConfigScreen
 from Components.config import config
+from Plugins.Plugin import PluginDescriptor
+from .Debug import logger
+from .__init__ import _
+from .Version import VERSION
+from .SocketCockpit import SocketCockpit
+from .ConfigInit import ConfigInit
+from .SkinUtils import initPluginSkinPath, loadPluginSkin
+from .ConfigScreen import ConfigScreen
 
 
 socket_cockpit = None
@@ -38,7 +38,7 @@ def openSettings(session, **__):
 	session.open(ConfigScreen, config.plugins.socketcockpit)
 
 
-def autostart(reason, **kwargs):
+def autoStart(reason, **kwargs):
 	if reason == 0:  # startup
 		if "session" in kwargs:
 			logger.info("+++ Version: %s starts...", VERSION)
@@ -64,7 +64,7 @@ def Plugins(**__):
 				PluginDescriptor.WHERE_AUTOSTART,
 				PluginDescriptor.WHERE_SESSIONSTART,
 			],
-			fnc=autostart
+			fnc=autoStart
 		),
 		PluginDescriptor(
 			name="SocketCockpit" + " - " + _("Setup"),

@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -22,7 +22,7 @@
 import os
 from pipes import quote
 import glob
-from Debug import logger
+from .Debug import logger
 
 
 def stripCutNumber(path):

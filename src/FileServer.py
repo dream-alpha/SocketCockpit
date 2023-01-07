@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -22,8 +22,8 @@
 import os
 import threading
 import select
-from Debug import logger
-from SocketUtils import int2sock, createServerSocket, sendSocket, receiveSocket, BUFFER
+from .Debug import logger
+from .SocketUtils import int2sock, createServerSocket, sendSocket, receiveSocket, BUFFER
 
 
 class FileServer(threading.Thread):

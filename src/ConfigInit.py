@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -19,8 +19,8 @@
 # <http://www.gnu.org/licenses/>.
 
 
-from Debug import log_levels, logger
 from Components.config import config, ConfigYesNo, ConfigSubsection, ConfigSelection, ConfigText, ConfigNothing, NoSave
+from .Debug import log_levels, logger
 
 
 class ConfigInit():
@@ -33,4 +33,4 @@ class ConfigInit():
 		config.plugins.socketcockpit.server_ip_address   = ConfigText(default="0.0.0.0")
 		config.plugins.socketcockpit.request_server_port = ConfigText(default="5000")
 		config.plugins.socketcockpit.file_server_port    = ConfigText(default="6000")
-		config.plugins.socketcockpit.debug_log_level     = ConfigSelection(default="INFO", choices=log_levels.keys())
+		config.plugins.socketcockpit.debug_log_level     = ConfigSelection(default="INFO", choices=list(log_levels.keys()))

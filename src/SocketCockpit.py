@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -20,14 +20,14 @@
 
 
 import os
-from Debug import logger
 from Components.config import config
-from RequestServer import RequestServer
-from FileServer import FileServer
-from FileClient import FileClient
-from OnlineMonitor import OnlineMonitor
-from SocketUtils import getIpAddress
-from FileUtils import touchFile, deleteFiles
+from .Debug import logger
+from .RequestServer import RequestServer
+from .FileServer import FileServer
+from .FileClient import FileClient
+from .OnlineMonitor import OnlineMonitor
+from .SocketUtils import getIpAddress
+from .FileUtils import touchFile, deleteFiles
 
 
 TMP_PATH = "/media/hdd/movie/remote.ts"

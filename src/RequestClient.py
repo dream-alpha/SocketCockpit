@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -21,9 +21,9 @@
 
 import select
 import threading
-import cPickle
-from Debug import logger
-from SocketUtils import createClientSocket, sendSocket, receiveSocket
+import six.moves.cPickle as cPickle
+from .Debug import logger
+from .SocketUtils import createClientSocket, sendSocket, receiveSocket
 
 
 class RequestClient(threading.Thread):

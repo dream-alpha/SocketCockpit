@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -20,9 +20,6 @@
 
 
 import os
-from Version import PLUGIN
-from Debug import logger, log_levels, setLogLevel
-from __init__ import _
 from Components.ConfigList import ConfigListScreen
 from Components.config import config, configfile, getConfigListEntry, ConfigText, ConfigPassword
 from Components.Button import Button
@@ -34,8 +31,11 @@ from Screens.MessageBox import MessageBox
 from Screens.VirtualKeyBoard import VirtualKeyBoard
 from Screens.Standby import TryQuitMainloop
 from enigma import eTimer, ePoint
-from ConfigScreenInit import ConfigScreenInit
-from SkinUtils import getSkinName
+from .__init__ import _
+from .Version import PLUGIN
+from .Debug import logger, log_levels, setLogLevel
+from .SkinUtils import getSkinName
+from .ConfigScreenInit import ConfigScreenInit
 
 
 class ConfigScreen(ConfigScreenInit, ConfigListScreen, Screen):

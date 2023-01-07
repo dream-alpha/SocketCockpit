@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2022 by dream-alpha
+# Copyright (C) 2018-2023 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -19,12 +19,12 @@
 # <http://www.gnu.org/licenses/>.
 
 
-import cPickle
 import threading
 import select
-from Debug import logger
-from SocketUtils import createServerSocket, sendallSocket, receiveSocket
+import six.moves.cPickle as cPickle
 from Plugins.SystemPlugins.CacheCockpit.FileManager import FileManager # pylint: disable=W0611
+from .Debug import logger
+from .SocketUtils import createServerSocket, sendallSocket, receiveSocket
 
 
 class RequestServer(threading.Thread):
